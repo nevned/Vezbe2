@@ -1,0 +1,16 @@
+
+
+.rezervacija{
+    background-color: pink;
+    
+}
+
+button{
+    width: 150px;
+    height: 60px;
+}
+
+button:hover{
+    color: brown;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,51 @@
+
+
+.velikiDiv img{
+
+height: 500px;
+width: 100%;
+
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+
+}
+
+
+
+.tekst{
+   background-color: rgba(127, 255, 212, 0.213);
+   padding: 40px;
+}
+
+.tekst:hover{
+    background-color: rgba(127, 255, 212, 0.384);
+}
+
+
+@keyframes animacija{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(1.3,1.3);}
+}
+
+
+@keyframes animacija2{
+    0%{color: black;}
+    50%{color: darkred;}
+    100%{color: rgb(17, 130, 38);}
+}
+
+.tekst{
+    animation-name: animacija2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+h1:hover{
+    animation-name: animacija;
+    animation-duration: 4s;
+}
