@@ -14,3 +14,36 @@ button:hover{
     color: brown;
     background-color: cornflowerblue;
 }
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    }
+    nav{
+    background-color: bisque;
+    width: 100%;
+    padding:10px;
+    }
+    nav .menu{
+        max-width: 1250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu ul{
+        display: inline-flex;
+    }
+    .menu ul li{
+        list-style: none;
+        margin: 10px;
+    
+    }
+    .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    }
+    .menu ul li a:hover{
+    color: aquamarine;
+    }

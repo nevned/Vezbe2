@@ -1,0 +1,74 @@
+*{
+font-family: 'Times New Roman', Times, serif;
+margin:0;
+padding:0;
+}
+nav{
+background-color: bisque;
+width: 100%;
+padding:10px;
+}
+nav .menu{
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 10px;
+
+}
+.menu ul li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+padding: 20px;
+}
+.menu ul li a:hover{
+color: aquamarine;
+}
+.pozadina{
+background-image: url("../img/travel-world-map.jpg");
+height: 67vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.dugme1{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.dugme2{
+    position: absolute;
+    top: 78%;
+    left: 10%;
+}
+.dugme{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color:aquamarine;
+}
+.dugme a{
+text-decoration: none;
+color: black;
+}
+.dugme:hover{
+    background-color: chartreuse;
+}
+footer{
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
